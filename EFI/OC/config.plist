@@ -1789,7 +1789,7 @@
 			<dict>
 				<key>#boot-args</key>
 				<string>-no_compat_check alcid=60 keepsyms=1 debug=0x100</string>
-				<key>ForceDisplayRotationInEFI</key>
+				<key>#ForceDisplayRotationInEFI</key>
 				<integer>180</integer>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
@@ -2022,7 +2022,7 @@
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>DirectGopRendering</key>
-			<true/>
+			<false/>
 			<key>ForceResolution</key>
 			<false/>
 			<key>GopBurstMode</key>
@@ -2061,7 +2061,7 @@
 			<key>AppleDebugLog</key>
 			<false/>
 			<key>AppleEg2Info</key>
-			<true/>
+			<false/>
 			<key>AppleFramebufferInfo</key>
 			<false/>
 			<key>AppleImageConversion</key>

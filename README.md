@@ -21,6 +21,10 @@
 
 ## 更新日志
 
+- 1-2-2024
+  - 清除开机时的屏幕旋转
+  - 修复USB定义
+
 - 1-1-2024
   - `OpenCore` @ `v0.9.8`
 
@@ -42,9 +46,9 @@
 
 ## 截屏
 
+![boot](ScreenShots/boot.png)
 ![About_for_Sonoma](ScreenShots/About_for_Sonoma.png)
 ![About_for_Ventura](ScreenShots/About_for_Ventura.png)
-
 ![Hackintool_Misc](ScreenShots/Hackintool_Misc.png)
 
 ## 鸣谢
