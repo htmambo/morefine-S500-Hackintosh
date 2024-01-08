@@ -6,7 +6,7 @@
 
 ## 电脑配置
 
-|   规格    |                           详细信息                           |
+|    规格  |                           详细信息                           |
 | :------: | :----------------------------------------------------------: |
 | 电脑型号  |                    morefine S500+ miniPC                     |
 | 操作系统  |           macOS `Sonoma` /  `Ventura` / `Monterey`           |
@@ -21,12 +21,16 @@
 
 ## 更新日志
 
+- 1-8-2024
+    - 更新`AMDRyzenCPUPowerManagement.kext`，默认开机时关闭`CPB`，可使用AmdPowerGate自行修改，睡眠唤醒后恢复睡眠时的`CPB`状态；
+    - 更新`NootedRed.kext`添加`jalavoui`的补丁使`OpenGL`降级正常使用。
+
 - 1-2-2024
-  - 清除开机时的屏幕旋转
-  - 修复USB定义
+    - 清除开机时的屏幕旋转
+    - 修复USB定义
 
 - 1-1-2024
-  - `OpenCore` @ `v0.9.8`
+    - `OpenCore` @ `v0.9.8`
 
 ## 应用兼容列表
 
