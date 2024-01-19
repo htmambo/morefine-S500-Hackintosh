@@ -94,6 +94,10 @@
 				<false/>
 				<key>CFG_UFL_STP</key>
 				<false/>
+				<key>CFG_USE_AGDC</key>
+				<data>
+				AA==
+				</data>
 				<key>CFG_USE_DPT</key>
 				<true/>
 			</dict>
