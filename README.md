@@ -1,4 +1,4 @@
-# morefine M600s miniPC Hackintosh
+# morefine S500+ miniPC Hackintosh
 
 ![release version](https://img.shields.io/github/v/release/htmambo/morefine-S500-Hackintosh?style=for-the-badge) 
 
