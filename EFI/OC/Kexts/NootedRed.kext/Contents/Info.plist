@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>21G1974</string>
+	<string>21H1015</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -94,10 +94,6 @@
 				<false/>
 				<key>CFG_UFL_STP</key>
 				<false/>
-				<key>CFG_USE_AGDC</key>
-				<data>
-				AA==
-				</data>
 				<key>CFG_USE_DPT</key>
 				<true/>
 			</dict>

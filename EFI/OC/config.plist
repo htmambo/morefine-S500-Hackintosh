@@ -16,14 +16,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EC.aml</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-EC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-SBUS-MCHC.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -1707,11 +1699,11 @@
 			<key>AppleXcpmForceBoost</key>
 			<false/>
 			<key>CustomSMBIOSGuid</key>
-			<true/>
+			<false/>
 			<key>CustomPciSerialDevice</key>
 			<false/>
 			<key>DisableIoMapper</key>
-			<true/>
+			<false/>
 			<key>DisableIoMapperMapping</key>
 			<true/>
 			<key>DisableLinkeditJettison</key>
@@ -1750,7 +1742,7 @@
 			<key>CustomKernel</key>
 			<false/>
 			<key>FuzzyMatch</key>
-			<false/>
+			<true/>
 			<key>KernelArch</key>
 			<string>x86_64</string>
 			<key>KernelCache</key>
@@ -1830,7 +1822,7 @@
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>14</integer>
+			<integer>15</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
@@ -1932,8 +1924,6 @@
 		<dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
-				<key>revblock</key>
-				<string>media</string>
 				<key>revcpu</key>
 				<integer>1</integer>
 				<key>revcpuname</key>
@@ -1950,7 +1940,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string></string>
+				<string>-ChefKissInternal</string>
 				<key>csr-active-config</key>
 				<data>fwoAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1998,7 +1988,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02917102J9JG361M</string>
+			<string>F5K942130CDFHDDCB</string>
 			<key>ProcessorType</key>
 			<integer>3841</integer>
 			<key>ROM</key>
@@ -2008,9 +1998,9 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>iMacPro1,1</string>
+			<string>MacPro7,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02YM6YWHX87</string>
+			<string>F5KZKYZBP7QM</string>
 			<key>SystemUUID</key>
 			<string>E7225B6B-C35B-4868-B8B7-6263BA937D6C</string>
 		</dict>
