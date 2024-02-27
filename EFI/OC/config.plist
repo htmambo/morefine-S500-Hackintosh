@@ -1699,7 +1699,7 @@
 			<key>AppleXcpmForceBoost</key>
 			<false/>
 			<key>CustomSMBIOSGuid</key>
-			<false/>
+			<true/>
 			<key>CustomPciSerialDevice</key>
 			<false/>
 			<key>DisableIoMapper</key>
@@ -1988,7 +1988,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>F5K942130CDFHDDCB</string>
+			<string>C02917102J9JG361M</string>
 			<key>ProcessorType</key>
 			<integer>3841</integer>
 			<key>ROM</key>
@@ -1998,9 +1998,9 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacPro7,1</string>
+			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KZKYZBP7QM</string>
+			<string>C02YM6YWHX87</string>
 			<key>SystemUUID</key>
 			<string>E7225B6B-C35B-4868-B8B7-6263BA937D6C</string>
 		</dict>
