@@ -405,7 +405,7 @@
 				<key>Comment</key>
 				<string>AMDRyzenCPUPowerManagement.kext</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AMDRyzenCPUPowerManagement</string>
 				<key>MaxKernel</key>
@@ -441,7 +441,7 @@
 				<key>Comment</key>
 				<string>SMCAMDProcessor.kext</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCAMDProcessor</string>
 				<key>MaxKernel</key>
@@ -459,7 +459,7 @@
 				<key>Comment</key>
 				<string>SMCProcessorAMD.kext</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCProcessorAMD</string>
 				<key>MaxKernel</key>
@@ -1375,7 +1375,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>22.0.0</string>
+				<string>21.0.0</string>
 				<key>Replace</key>
 				<data>SDnGZpBmkGaQ</data>
 				<key>ReplaceMask</key>
@@ -1435,7 +1435,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>22.0.0</string>
+				<string>21.0.0</string>
 				<key>Replace</key>
 				<data>TDn+ZpBmkGaQ</data>
 				<key>ReplaceMask</key>
@@ -1495,7 +1495,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>22.0.0</string>
+				<string>21.0.0</string>
 				<key>Replace</key>
 				<data>SItwWEw55maQZpBmkA==</data>
 				<key>ReplaceMask</key>
@@ -1555,7 +1555,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>22.0.0</string>
+				<string>21.0.0</string>
 				<key>Replace</key>
 				<data>TDujgAQAAGaQZpBmkA==</data>
 				<key>ReplaceMask</key>
@@ -1824,7 +1824,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string></string>
+				<string>-NRedDPDelay -ChefKissInternal</string>
 				<key>csr-active-config</key>
 				<data>fwoAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1978,18 +1978,6 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string>OpenCore plugin implementing OC_FIRMWARE_RUNTIME protocol</string>
-				<key>Enabled</key>
-				<true/>
-				<key>LoadEarly</key>
-				<false/>
-				<key>Path</key>
-				<string>OpenRuntime.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
 				<string>HFS+ Driver</string>
 				<key>Enabled</key>
 				<true/>
@@ -2012,15 +2000,15 @@
 			</dict>
 			<dict>
 				<key>Arguments</key>
-				<string>--enable-mouse-click</string>
+				<string></string>
 				<key>Comment</key>
-				<string>Screenshot Driver</string>
+				<string>OpenCore plugin implementing OC_FIRMWARE_RUNTIME protocol</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
-				<string>CrScreenshotDxe.efi</string>
+				<string>OpenRuntime.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -2036,15 +2024,15 @@
 			</dict>
 			<dict>
 				<key>Arguments</key>
-				<string></string>
+				<string>--enable-mouse-click</string>
 				<key>Comment</key>
-				<string>Firmware Settings Entry</string>
+				<string>Screenshot Driver</string>
 				<key>Enabled</key>
 				<true/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
-				<string>FirmwareSettingsEntry.efi</string>
+				<string>CrScreenshotDxe.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
