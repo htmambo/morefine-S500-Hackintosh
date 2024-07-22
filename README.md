@@ -5,7 +5,7 @@
 [![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.9-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Sonoma-14.3%2023D5033f-informational.svg)![MacOS version](https://img.shields.io/badge/Ventura-13.6.5%2022G619-informational.svg)![MacOS version](https://img.shields.io/badge/Monterey-12.7.4%2021H1121-informational.svg)
 
 ## 说明
-目前`NootRed`驱动基本上已经停止开发，所以操作系统就尽量别升级了，已知的问题就是`Sonoma 14.4 b4`已经无法使用了。目前我的主力系统是`Montery`，最新的`21H1121`的`系统偏好设置`无法正常打开，可能是因为强开了`硬解`的原因。
+目前我的主力系统是`Ventura`。
 
 ## 电脑配置
 
@@ -23,6 +23,8 @@
 | 有线网卡 |                      Realtek RTL8125                      |
 
 ## 更新日志
+- 7-22-2024
+    - 常规更新，驱动及OC
 - 2-27-2024
     - `OpenCore` @ `v0.9.9`
     - 机型换为`iMacPro 1,1`
